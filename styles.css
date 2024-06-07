@@ -113,11 +113,19 @@ header {
 
 @media (max-width: 400px) {
     .cell {
-        width: 9px;
-        height: 9px;
+        width: 9.5px;
+        height: 9.5px;
+    }
+
+    header {
+        padding: 4px;
     }
     .grid {
         border: 5px solid hsl(184, 33%, 30%) ;
+    }
+
+    .grid_container {
+        padding: 2px 0px;
     }
     
 }
