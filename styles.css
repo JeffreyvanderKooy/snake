@@ -17,7 +17,6 @@
 
 header {
     text-align: center;
-    padding: 10px;
     font-size: 2em;
     background-color:   hsl(184, 33%, 30%) ;
     height: 20vh;
@@ -33,7 +32,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     padding: 10px 0px;
 }
 
@@ -104,21 +103,22 @@ header {
     }
 
     .control_button {
-        width: 40px;
-        height: 40px;
-        border: 2px solid black;
-        font-size: 10px;
+        width: 50px;
+        height: 50px;
+        border: 5px solid black;
+        font-size: 14px;
     }
 }
 
 @media (max-width: 400px) {
     .cell {
-        width: 9.5px;
-        height: 9.5px;
+        width: 11px;
+        height: 11px;
     }
 
     header {
         padding: 4px;
+        height: 12vh;
     }
     .grid {
         border: 5px solid hsl(184, 33%, 30%) ;
@@ -126,6 +126,7 @@ header {
 
     .grid_container {
         padding: 2px 0px;
+        height: 88vh;
     }
     
 }
