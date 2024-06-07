@@ -110,7 +110,7 @@ header {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 376px) {
     .cell {
         width: 11px;
         height: 11px;
