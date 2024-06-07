@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Snake Game</h1>
+        <h2 class="level_text">Press movement keys to start</h2>
+    </header>
+
+    <div class="grid_container">
+        <div class="grid"></div>
+
+        <div class="controls">
+            <div class="row">
+                <button type="button" class="control_button" id="K38">&UpArrow;</button>
+            </div>
+
+            <div class="row">
+                <button type="button" class="control_button" id="K37">&LeftArrow;</button>
+                <button type="button" class="control_button" id="K40">&DownArrow;</button>
+                <button type="button" class="control_button" id="K39">&RightArrow;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
