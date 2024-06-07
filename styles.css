@@ -104,8 +104,8 @@ header {
     }
 
     .control_button {
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
         border: 2px solid black;
         font-size: 10px;
     }
@@ -113,8 +113,8 @@ header {
 
 @media (max-width: 400px) {
     .cell {
-        width: 10px;
-        height: 10px;
+        width: 9px;
+        height: 9px;
     }
     .grid {
         border: 5px solid hsl(184, 33%, 30%) ;
